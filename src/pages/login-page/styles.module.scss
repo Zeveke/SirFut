@@ -1,0 +1,152 @@
+@import "../../scss-styles/variables.scss";
+
+.login_section {
+    width: 25%;
+    margin: auto;
+    padding-top: 152px;
+    padding-bottom: 32px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.login_container {
+    margin-bottom: 65px;
+
+    & img {
+        width: 80px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 32px;
+    }
+}
+
+.login_title {
+    margin: 0;
+    color: $main_text_color;
+    margin-bottom: 16px;
+    text-align: center;
+    font-size: 45px;
+}
+
+.login_form {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    margin-bottom: 15px;
+}
+
+.login_data {
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid $graphic_color;
+    border-radius: 8px;
+    padding: 10px 12px;
+    outline: 0;
+}
+
+.login_data__password {
+    @extend .login_data;
+    padding-right: 40px;
+}
+
+.login_data__label {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.password_toggle_icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    height: 16px;
+
+    & img {
+        width: 16px;
+    }
+}
+
+.login_remember_me {
+    margin: 0;
+    color: $inputs_text_color;
+}
+
+.login_remember_me_label {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.login_button {
+    background-color: $main_button_color;
+    color: $contrast_text_color;
+    padding: 13px;
+    width: 100%;
+    border-radius: 30px;
+    border: none;
+
+    &:focus,
+    &:hover {
+        background-color: $active_color;
+    }
+
+    &:active {
+        background-color: $inputs_text_color;
+    }
+}
+
+.login_options {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.login_option {
+    text-decoration: none;
+    color: $link_color;
+}
+
+
+.login_no_data_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-content: center;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.login_no_data {
+    margin: 0;
+    text-align: center;
+}
+
+.login_no_data_register {
+    margin: 0;
+    text-align: center;
+    @extend .login_option;
+}
+
+.login_lang_wrapper {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+
+.login_lang {
+    border: none;
+    background-color: transparent;
+    padding: 5px;
+    font-size: 30px;
+    color: $inputs_text_color;
+}
+
+.login_error {
+    margin: 0;
+    color: $notification_color;
+}

@@ -1,0 +1,51 @@
+@import "../../../scss-styles/variables.scss";
+
+.countdown_container {
+    background-color: $countdown;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 63px;
+    border-radius: 30px;
+    flex: 1;
+}
+
+.countdown_title {
+    text-align: center;
+    font-size: 24px;
+}
+
+.countdown_timer {
+    display: flex;
+    gap: 12px;
+}
+
+.countdown_button {
+    width: 100%;
+    font-size: 18px;
+    padding: 13px;
+    background-color: transparent;
+    border: 1px dashed $inputs_text_color;
+    border-radius: 30px;
+    color: $inputs_text_color;
+
+    &:focus,
+    &:hover {
+        border: 1px dashed $main_button_color;
+        background-color: $calendar_grid;
+    }
+
+    &:active {
+        background-color: $inputs_text_color;
+        color: $contrast_text_color;
+
+    }
+}
+
+.countdown_time {
+    font-size: 34px;
+    margin-right: 5px;
+    font-weight: 600;
+}

@@ -1,0 +1,52 @@
+@import "../../../scss-styles/mixins.scss";
+@import "../../../scss-styles/variables.scss";
+
+.schedule_page {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 27px;
+}
+
+.change_schedule {
+    @include user_lessons_blocks_button;
+    min-width: 344px;
+    font-size: 18px;
+}
+
+.select_label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #333;
+    border-radius: 10px;
+
+    &:focus,
+    &:hover {
+        outline: 1px solid $inputs_text_color;
+    }
+
+    &:active {
+        outline: 1px solid $main_text_color;
+    }
+}
+
+.select_dropdown {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid $graphic_color;
+    border-radius: 8px;
+    background-color: $contrast_text_color;
+    outline: none;
+    color: $inputs_text_color;
+    min-width: 253px;
+
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('../../../images/select_dropdown.svg');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 10px 10px;
+}

@@ -1,0 +1,127 @@
+@import "../../../scss-styles/mixins.scss";
+@import "../../../scss-styles/variables.scss";
+
+.upcoming_lessons {
+    @include user_lessons_blocks;
+    width: 60%;
+    justify-content: center;
+    align-items: start;
+}
+
+.upcoming_lessons_title {
+    @include user_lessons_blocks_title;
+    margin-bottom: 16px;
+}
+
+.lessons_button {
+    @include user_lessons_blocks_button;
+    min-width: 345px;
+    max-width: 100%;
+    margin-top: 10px;
+    align-self: center;
+}
+
+.lesson {
+    @include user_list_items;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+    flex-wrap: no-wrap;
+    gap: 0;
+}
+
+.lesson_list {
+    flex: 1;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
+.lesson_date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.lesson_title {
+    flex: 1;
+    margin-right: 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+.lesson_time {
+    font-size: 16px;
+    color: #666;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.lesson_teacher {
+    font-size: 12px;
+    color: #666;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.lesson_buttons_wrapper {
+    display: flex;
+    gap: 5px;
+    margin-left: auto;
+    flex-shrink: 0; 
+    align-items: center; 
+}
+
+.lesson_button,
+.lesson_button_active {
+    @include user_lessons_blocks_button;
+    min-width: 80px;
+    color: $contrast_text_color;
+    background-color: $main_button_color;
+    font-size: 12px;
+
+    &:focus,
+    &:hover {
+        background-color: $countdown;
+        color: $main_text_color;
+    }
+
+    &:active {
+        background-color: $inputs_text_color;
+    }
+}
+
+.lesson_button_active {
+    background-color: $contrast_text_color;
+    color: $main_text_color;
+    border: 1px solid $main_button_color;
+
+    &:focus,
+    &:hover {
+        background-color: $main_button_color;
+        color: $contrast_text_color;
+    }
+
+    &:active {
+        background-color: $inputs_text_color;
+    }
+}
+
+.no_lessons_message {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.lesson_teacher_wrapper {
+    display: flex;
+    align-items: center; 
+    flex-shrink: 1; 
+}

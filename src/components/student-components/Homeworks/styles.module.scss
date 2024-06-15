@@ -1,0 +1,13 @@
+@import "../../../scss-styles/mixins.scss";
+@import "../../../scss-styles/variables.scss";
+
+.homework_container {
+
+    @include user_side_components;
+    background-color: $gift_link_color;
+    background-image: url("../../../images/homeworkicon.png");
+}
+
+.homework_titles {
+    @include user_side_components_titles;
+}

@@ -1,0 +1,27 @@
+@import "../../scss-styles/variables.scss";
+
+.discout_container {
+    background-color: $active_color;
+    border-radius: 30px;
+    color: $contrast_text_color;
+    padding: 58px 200px 56px 40px;
+    min-height: 250px;
+    background-image: url("../../images/discount.png");
+    background-repeat: no-repeat;
+    background-position: right -75px bottom 0;
+    background-size: contain;
+    width: 50%;
+}
+
+.discout_title {
+    margin: 0;
+    margin-bottom: 12px;
+    font-size: 34px;
+}
+
+.discout_description {
+    margin: 0;
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: $student_blocks;
+}

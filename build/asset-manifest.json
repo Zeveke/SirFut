@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/web_calendar_SiriusFuture/static/css/main.b67fd4e5.css",
+    "main.js": "/web_calendar_SiriusFuture/static/js/main.fbadb7f4.js",
+    "static/js/453.ed3810f9.chunk.js": "/web_calendar_SiriusFuture/static/js/453.ed3810f9.chunk.js",
+    "static/media/CirceRounded-Regular5.woff": "/web_calendar_SiriusFuture/static/media/CirceRounded-Regular5.96503333a2ad55ce3aea.woff",
+    "static/media/CirceRounded-Regular4.woff": "/web_calendar_SiriusFuture/static/media/CirceRounded-Regular4.a2d7c5b9f78afda5ed68.woff",
+    "static/media/discount.png": "/web_calendar_SiriusFuture/static/media/discount.94fcad4b604fb39271d5.png",
+    "static/media/CirceRounded-Regular5.woff2": "/web_calendar_SiriusFuture/static/media/CirceRounded-Regular5.71f34f17e72c9f5ec62b.woff2",
+    "static/media/CirceRounded-Regular4.woff2": "/web_calendar_SiriusFuture/static/media/CirceRounded-Regular4.a58e2b6257630012c233.woff2",
+    "static/media/settings.svg": "/web_calendar_SiriusFuture/static/media/settings.fccf91cb21bc79dfc509e42b48f573a1.svg",
+    "static/media/calendar.svg": "/web_calendar_SiriusFuture/static/media/calendar.4cda4eadd78172e602c36f44fc8f7b90.svg",
+    "static/media/folder-open.svg": "/web_calendar_SiriusFuture/static/media/folder-open.f504257a38acc1fa095232a7e2236fbb.svg",
+    "static/media/puzzle.svg": "/web_calendar_SiriusFuture/static/media/puzzle.46813892651bac3ab8c70196ab5beb37.svg",
+    "static/media/home.svg": "/web_calendar_SiriusFuture/static/media/home.5ee0c398a24cc58c8810da4b3066a469.svg",
+    "static/media/cup.svg": "/web_calendar_SiriusFuture/static/media/cup.1067012d6132509b63090fb4809da390.svg",
+    "static/media/show_password.svg": "/web_calendar_SiriusFuture/static/media/show_password.5c8579edcb07dd113899a49fc0acca69.svg",
+    "static/media/teacher.svg": "/web_calendar_SiriusFuture/static/media/teacher.75f680e060a4ecf35ba39566fca44dc2.svg",
+    "static/media/question.svg": "/web_calendar_SiriusFuture/static/media/question.8397d94a39097b5447fb05110e41535b.svg",
+    "index.html": "/web_calendar_SiriusFuture/index.html",
+    "static/media/pay-status.svg": "/web_calendar_SiriusFuture/static/media/pay-status.91128cb2ab9b26352b5c5fd82f7b716c.svg",
+    "static/media/money.svg": "/web_calendar_SiriusFuture/static/media/money.8031961cbc8296fd5214adc8838886af.svg",
+    "static/media/support.svg": "/web_calendar_SiriusFuture/static/media/support.e61dd4373a51fd89e4ae55c3bf43d413.svg",
+    "static/media/exit.svg": "/web_calendar_SiriusFuture/static/media/exit.65712a758914cd0e3684baa563077a8b.svg",
+    "static/media/select_dropdown.svg": "/web_calendar_SiriusFuture/static/media/select_dropdown.5faec9f07d3a11affbcf.svg",
+    "static/media/openMenuIcon.svg": "/web_calendar_SiriusFuture/static/media/openMenuIcon.d002633c88ed199faed5.svg",
+    "main.b67fd4e5.css.map": "/web_calendar_SiriusFuture/static/css/main.b67fd4e5.css.map",
+    "main.fbadb7f4.js.map": "/web_calendar_SiriusFuture/static/js/main.fbadb7f4.js.map",
+    "453.ed3810f9.chunk.js.map": "/web_calendar_SiriusFuture/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b67fd4e5.css",
+    "static/js/main.fbadb7f4.js"
+  ]
+}

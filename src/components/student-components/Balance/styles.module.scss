@@ -1,0 +1,54 @@
+@import "../../../scss-styles/mixins.scss";
+@import "../../../scss-styles/variables.scss";
+
+.balance_wrapper {
+    @include user_lessons_blocks;
+    width: 40%;
+}
+
+.balance_title {
+    @include user_lessons_blocks_title;
+}
+
+.balance_button {
+    @include user_lessons_blocks_button;
+    margin-top: 36px;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.balance_list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-height: 250px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.balance_list_item {
+    @include user_list_items;
+    word-break: break-all;
+    font-size: 16px;
+}
+
+.balance_list_count {
+    background-color: $decoration_color;
+    min-width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.no_balance_message {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+}

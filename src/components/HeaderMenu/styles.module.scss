@@ -1,0 +1,138 @@
+@import "../../scss-styles/variables.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  width: 250px;
+  position: absolute;
+  border: 1px solid $active_color;
+  border-radius: 12px;
+  padding: 30px;
+  right: 0;
+  top: 58px;
+  background-color: $contrast_text_color;
+  z-index: 2;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: -14px;
+    right: 35px;
+    border-width: 7px;
+    border-style: solid;
+    border-color: transparent transparent $active_color transparent;
+  }
+}
+
+.close_button {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  top: 12px;
+  right: 12px;
+
+}
+
+.close_button:before,
+.close_button:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background-color: $active_color;
+  border-radius: 1px;
+}
+
+.close_button:before {
+  transform: rotate(45deg);
+}
+
+.close_button:after {
+  transform: rotate(-45deg);
+}
+
+.menu_toggle_title {
+  margin-bottom: 12px;
+  font-size: 15px;
+}
+
+.you_item {
+  display: flex;
+  background-color: $decoration_color;
+  padding: 8px;
+  gap: 8px;
+  border-radius: 12px;
+  width: 100%;
+  margin-bottom: 8px;
+  align-items: center;
+
+  &.extra_item {
+    background-color: $contrast_text_color;
+    margin: 0;
+
+    &:focus,
+    &:hover {
+        background-color: $decoration_color;
+    }
+  
+    &:active {
+        background-color: $gift_link_color;
+    }
+
+  }
+}
+
+
+.user_name {
+  font-size: 12px;
+
+  &+p {
+    font-size: 10px;
+    margin-top: 5px;
+  }
+}
+
+.menu_list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  //this is done in case there are multuple extra users
+
+  list-style: none;
+  padding-bottom: 12px;
+  border-bottom: 1px solid $decoration_color;
+}
+
+.logout_button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border: none;
+  background-color: $contrast_text_color;
+  padding: 10px 5px;
+  margin-top: 12px;
+  border-radius: 10px;
+
+  &:focus,
+  &:hover {
+      background-color: $decoration_color;
+  }
+
+  &:active {
+      background-color: $gift_link_color;
+  }
+
+}
+
+
+.logout_text {
+  color: $link_color;
+}

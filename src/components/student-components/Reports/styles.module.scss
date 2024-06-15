@@ -1,0 +1,12 @@
+@import "../../../scss-styles/mixins.scss";
+@import "../../../scss-styles/variables.scss";
+
+.reports_container {
+    @include user_side_components;
+    background-color: $reports_color;
+    background-image: url("../../../images/reportIcon.png");
+}
+
+.reports_title {
+    @include user_side_components_titles;
+}
