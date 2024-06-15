@@ -1,0 +1,64 @@
+@import "./variables.scss";
+
+@mixin user_side_components {
+    border-radius: 20px;
+    padding: 16px;
+    padding-bottom: 60px;
+    min-height: 115px;
+    background-repeat: no-repeat;
+    background-position: bottom 12px right 12px;
+    width: 160px;
+}
+
+@mixin user_side_components_titles {
+    margin: 0;
+    font-size: 22px;
+}
+
+@mixin user_lessons_blocks {
+    border: 1px solid $active_color;
+    border-radius: 20px;
+    height: fit-content;
+    padding: 28px 28px 30px 28px;
+    background-color: $contrast_text_color;
+    display: flex;
+    flex-direction: column;
+    max-height: 330px;
+}
+
+@mixin user_lessons_blocks_title {
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+@mixin user_lessons_blocks_button {
+    background-color: $student_blocks;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+    color: $main_text_color;
+    font-size: 20px;
+
+    &:focus,
+    &:hover {
+        background-color: $main_button_color;
+        color: $contrast_text_color;
+    }
+
+    &:active {
+        background-color: $inputs_text_color;
+    }
+
+}
+
+@mixin user_list_items {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 80px;
+    border-bottom: 1px solid $decoration_color;
+    gap: 30px;
+}
